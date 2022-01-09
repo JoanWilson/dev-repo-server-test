@@ -1,0 +1,41 @@
+[ {
+  "uid" : "5ca7eece0493a42d",
+  "name" : "Mudança dos dados de um usuário",
+  "time" : {
+    "start" : 1641409059675,
+    "stop" : 1641409060290,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a256ec8986a3714",
+  "name" : "Adicionar um novo usuário",
+  "time" : {
+    "start" : 1641409058082,
+    "stop" : 1641409058439,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eb7c43986650459",
+  "name" : "Deletar um usuário",
+  "time" : {
+    "start" : 1641409063190,
+    "stop" : 1641409063608,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d57e9434d388b12",
+  "name" : "Listar todos os usuários",
+  "time" : {
+    "start" : 1641409061720,
+    "stop" : 1641409061879,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

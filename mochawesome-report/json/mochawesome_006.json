@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-05T18:44:58.109Z",
+    "end": "2022-01-05T18:44:58.297Z",
+    "duration": 188,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6280df70-103b-4a4f-9cd2-bce8c2678d95",
+      "title": "",
+      "fullFile": "cypress/integration/services/Users/tests/03-GETUsers.spec.js",
+      "file": "cypress/integration/services/Users/tests/03-GETUsers.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "12e530b9-ad51-4855-8dab-45e18f837110",
+          "title": "GET Users",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Listar todos os usuários",
+              "fullTitle": "GET Users Listar todos os usuários",
+              "timedOut": null,
+              "duration": 173,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "GETUsers.allUsers().should(res => {\n  expect(res.status).to.eq(200);\n  expect(res.body).to.be.not.null;\n});",
+              "err": {},
+              "uuid": "61ac0baa-0bec-4d1f-a88d-cef88b9dfb60",
+              "parentUUID": "12e530b9-ad51-4855-8dab-45e18f837110",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "61ac0baa-0bec-4d1f-a88d-cef88b9dfb60"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 173,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
